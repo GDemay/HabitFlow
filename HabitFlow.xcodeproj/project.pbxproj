@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B6DE362C2C8C84FE00617AD7 /* EditHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE362B2C8C84FE00617AD7 /* EditHabitView.swift */; };
+		B6DE36302C8C89E200617AD7 /* HabitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DE362F2C8C89E200617AD7 /* HabitCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B6DE35E82C8C77D500617AD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		B6DE35D72C8C77D400617AD7 /* HabitFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DE35E72C8C77D500617AD7 /* HabitFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DE35F12C8C77D500617AD7 /* HabitFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6DE362B2C8C84FE00617AD7 /* EditHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitView.swift; sourceTree = "<group>"; };
+		B6DE362F2C8C89E200617AD7 /* HabitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		B6DE35CE2C8C77D400617AD7 = {
 			isa = PBXGroup;
 			children = (
+				B6DE362F2C8C89E200617AD7 /* HabitCardView.swift */,
+				B6DE362B2C8C84FE00617AD7 /* EditHabitView.swift */,
 				B6DE35D92C8C77D400617AD7 /* HabitFlow */,
 				B6DE35EA2C8C77D500617AD7 /* HabitFlowTests */,
 				B6DE35F42C8C77D500617AD7 /* HabitFlowUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DE36302C8C89E200617AD7 /* HabitCardView.swift in Sources */,
+				B6DE362C2C8C84FE00617AD7 /* EditHabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
